@@ -28,7 +28,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-hero-info">
-            <p>Championing Artists’ Rights and Defining Ethical AI Standards</p>
+            <p>Minimalist vertical lines accent this uber cool and contemporary sanctuary</p>
           </div>
         </section>
         <section className="about-us">
