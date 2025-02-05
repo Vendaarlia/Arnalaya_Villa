@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Transition from "/src/components/Transition/Transition";
@@ -9,6 +10,7 @@ import "./Solutions.css";
 import { ReactLenis, useLenis } from "lenis/react";
 
 const Solutions = () => {
+// eslint-disable-next-line no-unused-vars
   const lenis = useLenis(({ scroll }) => {});
 
   return (

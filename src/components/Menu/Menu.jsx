@@ -1,9 +1,11 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import "./Menu.css";
 
 import gsap from "gsap";
 
+// eslint-disable-next-line no-unused-vars
 const Menu = ({ isOpen, setIsOpen, isDark }) => {
   const [isAnimating, setIsAnimating] = useState(false);
   const menuColsRef = useRef([]);
@@ -184,7 +186,7 @@ const Menu = ({ isOpen, setIsOpen, isDark }) => {
           <Link to="/" onClick={handleNavigation("/")}>
             <img
               id="logo"
-              src={isDark ? "/logo.png" : "/logo.png"}
+              src={isDark ? "/logo-dark.png" : "/logo.png"}
               alt="Logo"
             />
           </Link>

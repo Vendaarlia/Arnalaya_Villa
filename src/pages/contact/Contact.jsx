@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Link } from "react-router";
 import Footer from "../../components/Footer/Footer";
@@ -10,6 +11,7 @@ import "./Contact.css";
 import { ReactLenis, useLenis } from "lenis/react";
 
 const Contact = () => {
+  // eslint-disable-next-line no-unused-vars
   const lenis = useLenis(({ scroll }) => {});
 
   return (
