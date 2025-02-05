@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import Transition from "../../components/transition/Transition";
+import Transition from "/src/components/Transition/Transition";
+
 import ParallaxImage from "../../components/ParallaxImage/ParallaxImage";
 
 import "./Solutions.css";
